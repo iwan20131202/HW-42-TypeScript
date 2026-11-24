@@ -8,6 +8,8 @@ abstract class House {
   }
 
   comeIn(person: Person): void {
+
+    
     if (this.door) {
       this.tenants.push(person);
       console.log("Мешканець зайшов у будинок");
